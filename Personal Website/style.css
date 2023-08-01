@@ -1,0 +1,68 @@
+#header {
+    font-family: Georgia;
+    color: white;
+    background-color: rgb(111, 78, 55);
+    display:flex;
+    justify-content: center;
+}
+
+
+nav{
+    font-family: Georgia;
+    background-color: rgb(243, 229, 171);
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 10%;
+}
+
+.items:hover{
+    background-color: gray;
+    opacity: 0.5;
+}
+
+body{
+    background-color: rgb(111, 78, 55);
+}
+.homepageContent{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+img{
+    width: 75%;
+    
+}
+
+
+.card{
+    width: 33%;
+    margin: 15px;
+    padding: 25px;
+    border-left: 1px solid #B1D7FE;
+    border-right: 1px solid #B1D7FE;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    transition: border 500ms;
+    text-align: center;
+
+
+
+}
+.card:hover{
+    border-top: 1px solid #B1D7FE;
+    border-bottom: 1px solid #B1D7FE;
+}
+
+p{
+    color: black;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.aboutMeContent{
+    width: 75%;
+    display:flex;
+}
